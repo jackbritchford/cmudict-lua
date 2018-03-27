@@ -46,8 +46,6 @@ end
 local function printtable(t, count, pad)
 	print(tbltostr(t, count, pad))
 end
-local printtable = printtable
-
 
 cmu = cmu or {}
 
